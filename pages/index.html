@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #myTable {
+            font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+            border-collapse: collapse;
+        }
+    
+        #myTable td {
+            border: solid 1px #C9C9C9;
+            padding: 10px;
+            font-size: 12px;
+            text-align: center;
+        }
+    
+        #myTable tr {
+            background-color: #EBEBEB;
+            color: #000000;
+        }
+    
+        #myTable tr:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+    
+        #myTable th {
+            border: solid 1px #BFBFBF;
+            padding: 10px;
+            color: #000000;
+            background-color: #D4D4D4;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Developer: Zohaib Hassan Soomro</h1>
+    <h4>API Info</h4>
+    <table id="myTable" width="100%">
+        <thead>
+            <tr>
+                <th scope="col">Routes</th>
+                <th scope="col">Functions</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>/movies</td>
+                <td>Get All Movies</td>
+            </tr>
+    
+            <tr>
+                <td>/movies/{id}</td>
+                <td>Get Movie By Id</td>
+            </tr>
+    
+            <tr>
+                <td>/movies/create</td>
+                <td>Create a Movie</td>
+            </tr>
+    
+            <tr>
+                <td>/movies/update/{id}</td>
+                <td>Update Movie With Id</td>
+            </tr>
+    
+            <tr>
+                <td>/movies/delete/{id}</td>
+                <td>Delete Movie With Id</td>
+            </tr>
+    
+        </tbody>
+    </table>
+</body>
+</html>
+
